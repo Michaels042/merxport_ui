@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assests/bootstrap-5.0.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assests/fontawesome-free-5.14.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./sass/screen.css">
+    <link rel="stylesheet" href="./js/intl-tel-input-master/intl-tel-input-master/build/css/intlTelInput.min.css">
+
+    <title>MerxPort-Register</title>
+</head>
+<body>
+
+    <section class="hero-login">
+
+        <div class="overlay-left">
+            <div class="left-log">
+                <div class="logo">
+                    <img src="./images/MerxLogo-White.svg" alt="logo">
+                </div>
+                <div class="foreground">
+                    <p>
+                        If you encounter any issues creating an account or
+                        loggin in, kindly contact us immediately
+                    </p>
+                </div>
+                
+            </div>
+    
+            <div class="center-log">
+                <div class="center-content">
+                    <button>
+                        <a href="index.html"><i class="fas fa-times"></i>Return To MerxPort Homepage</a>
+                    </button>
+        
+                    <form action="post">   
+                        <h1>Create Account</h1>
+        
+                        <div class="form-group">
+                            <div>
+                                <label for="name">Full Name</label><br>
+                                <input type="text" id="name" class="form-control" placeholder="Type here">
+                            </div>
+        
+                            <div>
+                                <label for="number">Phone Number</label><br>
+                                <input type="tel" id="telephone" class="form-control" placeholder="0000 000 0000">
+    
+                            </div>
+                            <p>
+                                <a href="#">Forgot Password</a>
+                            </p>
+                           
+                        </div>
+                        <input type="submit" class="btn" value="Register">
+                        <div>
+                            <span>
+                                Already have an account?
+                            </span>
+                            <span class="register">
+                                <a href="login.html">Login</a>
+                            </span>
+                        </div>
+                    </form>
+                </div>
+                
+                <div class="center-footer">
+                    <div class="foot-link">
+                        <a href="#"><img src="./images/FB.svg" alt="facebook">Facebook</a>
+                    </div>
+    
+                    <div class="foot-link">
+                        <a href="#"><img src="./images/Google.svg" alt="google">Google</a>
+                    </div>
+                </div>
+            </div>       
+        </div>
+       
+    </section>
+
+    <!-- Use as a Vanilla JS plugin -->
+
+    <script src="./js/intl-tel-input-master/intl-tel-input-master/build/js/intlTelInput.min.js"></script>
+
+    <script type="text/javascript" src="./js/phone.js"></script>
+    
+</body>
+
+</html>

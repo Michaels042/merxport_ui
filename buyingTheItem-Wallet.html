@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assests/bootstrap-5.0.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assests/fontawesome-free-5.14.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./sass/screen.css">
+    <!-- <link rel="stylesheet" href="./js/intl-tel-input-master/intl-tel-input-master/build/css/intlTelInput.min.css"> -->
+
+    <title>MerxPort-BuyUpload</title>
+</head>
+    <body>
+        <section class="fixed-body">
+            <nav class="navbar-loggedin">
+            <a href="/" class="navbar__logo">
+                <img src="./images/MerxLogo.svg" alt="MerxLogo">
+            </a>
+            <div class="navbar__bars">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="navbar__menu">
+                <a href="marketplace-BuyerRequests.html" class="nav-item link active">Marketplace</a>
+                <a href="blog.html" class="nav-item link">Orders</a>
+                <a href="contact.html" class="nav-item link">Services</a>
+                <a href="contact.html" class="nav-item link">Wallet</a>
+            </div>
+
+            <div class="navbar__menu">
+                <a href="index.html" class="nav-item link"><img src="./images/bell.svg" alt="">
+                    <span class="position-relative">
+                        <span class="position-absolute top-0 start-70 translate-middle badge rounded-pill bg-danger">
+                        99+
+                        <span class="visually-hidden">unread messages</span>
+                        </span>
+                    </span>
+                </a>
+                <a href="contact.html" class="btn">Create</a>
+                <a href="#" class="btn">My Account<i class="fas fa-angle-down"></i></a> 
+            </div>
+            </nav> 
+
+        
+    <!-- Body Section -->
+
+            <div class="hero-marketplace">
+
+                <div class="box">
+                    <a href="userLoggedIn.html" class="btn-direct">
+                        <button><i class="fas fa-chevron-left"></i>Back</button>
+                    </a>
+                </div>
+        
+                <div class="row">
+                    
+                        <div class="col-4">
+                            <div class="prod-image">
+                                <img src="./images/SoyBeans@2x.png" alt="">
+                            </div>
+                            <div class="thumbnail">
+                                    <a href="#" class="active"><img src="./images/SoyBeans.png" alt=""></a>
+                            </div>
+                        </div>
+                    
+                    <div class="col-8">
+                        <div class="prod-details">
+                            <h1>Soya Beans and Chick Peas</h1>
+                            <div class="dealer-date">
+                                <span>By</span>
+                                <span class="green-name">Salawu Suleiman</span>
+                            </div>
+                            <p class="units">Tues, 18th Jun 2021</p>
+
+                            <div class="pricin">
+                                    <div class="btn"><a href="userNotLoggedIn.html">Place Order</a></div>                   
+                                    <div>
+                                        <div class="unit-price">
+                                            <h4>₦60,000</h4>
+                                            <p class="units">/bag</p>
+                                        </div>
+                                        <p class="units">8 Bag(s) available</p>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="desc-wrap">
+                                    <div class="desc-header">
+                                        <p>Minimum Quantity</p>
+                                        <p>Maximum Quantity</p>
+                                        <p>Incoterm</p>
+                                    </div>
+                                    <div class="desc-inner">
+                                        <h5>1 Bag(s)</h5>
+                                        <h5>8 Bag(s)</h5>
+                                        <h5>FOT</h5>
+                                    </div>
+
+                                </div>
+                                <div class="desc-wrap">
+                                    <h5>Product Description</h5>
+                                    <p>Soya beans, Chick peas and pigeon peas
+                                        5 full container load each, 40" container.
+                                        We would send product clear photos, specifications,
+                                        fumigation method, shipment and origin.
+                                    </p>
+                                </div>
+                                <div class="desc-wrap">
+                                    <h5>Quality Specification</h5>
+                                    <p>Is the quality specification needed 
+                                        considering their is a product desription? Or is 
+                                        this a standard field in all transactions of theis nature?
+                                        Regardless we would have it here
+                                    </p>
+                                </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="overlay-left">
+                
+                <div class="overlay"></div>
+
+                <div class="right-log">
+                    <div class="right-header">
+                        <div class="box">
+                            <a href="sellerListingOpened-UserLoggedIn.html" class="btn-direct">
+                                <button><i class="fas fa-times"></i>Close</button>
+                            </a>
+                        </div>
+
+                        <h3>Buy Now</h3>
+                    </div>
+
+                    <div class="right-body">
+                        <div class="text-box">
+                            <h4 class="inner-text">General Information</h4>
+                            <div class="inner-text">
+                                <span>Product</span>
+                                <span>Fresh Red Coffee</span>
+                            </div>
+                            <div class="inner-text">
+                                <span>Suplier</span>
+                                <span>Olayi and Sons Limited</span>
+                            </div> 
+                        </div>
+
+                        <div class="text-box">
+                            <h4 class="inner-text">Amount to Order</h4>
+                            <div class="inner-text">
+                                <span>Price Per Bag</span>
+                                <span>₦60,0000</span>
+                            </div>
+                            <div class="range-selector">
+                                <input type="range" min="0" max="100" value="50" id="slider">
+                            </div>
+                            <div class="inner-text">
+                                <span>Total</span>
+                                <h4>₦360,0000</h4>
+                            </div>
+                        </div>
+
+                        <form action="/" method="post">
+                            <div class="text-box">
+                                <h4 class="inner-text">Payment Method</h4>
+                                <div class="inner-box">
+                                    <div class="form-content">
+                                        <div class="title-choice">
+                                            <label class="form-check-label" for="defaultCheck1">Pay With Letter Of Credit</label>
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" disabled>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="inner-box">
+                                    <div class="form-content">
+                                        <div class="title-choice">
+                                            <label class="form-check-label" for="defaultCheck2">Pay With PayStack</label>
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck2" disabled>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="inner-box-green">
+                                    <div class="form-content">
+                                        <div class="title-choice-green">
+                                            <label class="form-check-label" for="defaultCheck3">Pay From Your Merxport Wallet</label>
+                                            <input class="form-check-input" type="checkbox" value="" id="defaultCheck3">
+                                        </div>
+                                        <div class="inner-text gray">
+                                            <span>Wallet Balance</span>
+                                            <span>₦4,360,0000</span>
+                                        </div>
+                                        <div class="inner-text gray">
+                                            <span>Amount To Pay</span>
+                                            <span>₦360,0000</span>
+                                        </div>
+                                        <div class="checked green">
+                                            <span>New Balance:</span>
+                                            <span>₦4,000,0000</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <a href="success.html" type="submit" class="btn-greenpad">Place Order</a>                   
+                            
+                        </form>
+                    </div>
+                </div>
+
+            </div>  
+        
+        </section>    
+    </body>
+</html>
